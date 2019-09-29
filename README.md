@@ -31,7 +31,9 @@ arise func "x*2":
     run:
         print("arised!")
 
-func 5 true
+func:
+    x: 5
+    y: true
 
 ```
 
