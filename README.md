@@ -1,5 +1,8 @@
 # Otlang
 
+모든 것이 input, run, output으로 돌아가는 언어, OtLang.  
+function은 하나의 box객체로 취급하여 변수간의 상호작용이 가능.  
+모든 객체는 선언시 변수에 대한 설명을 요구.  
 
 ```
 type number:
