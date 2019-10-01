@@ -23,7 +23,14 @@ y:type=str, value="로지꾸";
     ("output" ":" NEWLINE (<decl_var>*)? NEWLINE)?
     
 ```
-
+### example
+box function1:
+    input:
+        x:type=int
+    run:
+        x=x+1
+    output:
+        x:type=int
 
 ## 조건문 정의
 
