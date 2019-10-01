@@ -17,8 +17,11 @@ y:type=str, value="로지꾸";
 
 ## 함수정의
 ```
-<function_expr> ::= "function" "(" (<name_type> ( "," <name_type>)*)? ")" ("as" <type>)?
-    "{" <sentence>* "}"
+<function_expr> ::= "box" <identifier> ":" NEWLINE
+    "input" ":" NEWLINE (<decl_var>*)? NEWLINE
+    "run" ":" NEWLINE <sentence>* NEWLINE
+    ("output" ":" NEWLINE (<decl_var>*)? NEWLINE)?
+    
 ```
 
 ```
