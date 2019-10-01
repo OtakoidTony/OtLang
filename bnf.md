@@ -12,9 +12,10 @@
 <decl_var> ::= <identifier> ":" "type" "=" <type> ("," "value" "=" <expr>)? ";"
 ```
 ### example
+```
 x:type=int, value=3141592;
 y:type=str, value="로지꾸";
-
+```
 ## 함수 정의
 ```
 <function_expr> ::= "box" <identifier> ":" NEWLINE
@@ -24,6 +25,7 @@ y:type=str, value="로지꾸";
     
 ```
 ### example
+```
 box function1:
     input:
         x:type=int
@@ -31,7 +33,7 @@ box function1:
         x=x+1
     output:
         x:type=int
-
+```
 ## 조건문 정의
 
 ```
