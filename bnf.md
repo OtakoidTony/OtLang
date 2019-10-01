@@ -9,7 +9,7 @@
 ## 변수 정의
 이름:type=타입, value=값
 ```
-<decl_var> ::= <identifier> ":" "type" "=" <type> "," "value" "=" <expr> ";"
+<decl_var> ::= <identifier> ":" "type" "=" <type> ("," "value" "=" <expr>)? ";"
 ```
 ### example
 x:type=int, value=3141592;
