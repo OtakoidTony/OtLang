@@ -1,1 +1,2 @@
-box func is
+box func1 a b:
+    if a>b:
