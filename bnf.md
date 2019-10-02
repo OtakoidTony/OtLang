@@ -38,7 +38,7 @@ box function1:
 
 ```
 <if> ::= "logic" "(" <expr> ")" "{" <sentence>* "}"
-    ("else" "if" "(" <expr> ")" "{" <sentence>* "}")*
+    ("branch" "logic" "(" <expr> ")" "{" <sentence>* "}")*
     ("else" "{" <sentence>* "}")?
 ```
 
