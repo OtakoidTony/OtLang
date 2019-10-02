@@ -6,12 +6,12 @@ CAS CASE
 RPT REPEAT  
 TYP TYPE  
 LOC LOCAL  
-LGC LOGIC
-CMP COMPUTING
-DEF DEFINE
-BLN BOOLEAN
-FOR FOR
-WIE WHILE
+LGC LOGIC  
+CMP COMPUTING  
+DEF DEFINE  
+BLN BOOLEAN  
+FOR FOR  
+WIE WHILE  
 
 ```asm
 .func1
@@ -35,7 +35,7 @@ WIE WHILE
     
 ```
 
-```
+```asm
 .func1
     MAK [A, B, C] [STR, STR, INT] ;변수 A와 B와 C를 만들고 타입은 각각 문자열, 문자열, 정수로 설정해라.
     LET A "Hello World!" ;A의 값을 "Hello World!"이라 해라.
