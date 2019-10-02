@@ -2,12 +2,21 @@
 
 ## 변수 정의
 ```
-<decl_var> ::= <identifier> ":" "type" "=" <type> ("," "value" "=" <expr>)? ";"
+<decl_var> ::= <identifier> ":" "type" "=" <type> ("," "value" "=" <expr>)? NEWLINE
 ```
 ### example
 ```
 x:type=int, value=3141592;
 y:type=str, value="로지꾸";
+```
+
+## 변수 할당
+```
+<assign> ::= <lexpr> "=" <expr> NEWLINE
+```
+### example
+```
+x=314
 ```
 ## 함수 정의
 ```
