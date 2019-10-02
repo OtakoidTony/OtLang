@@ -1,3 +1,6 @@
+```bnf
+<decl_func>::="." <identity>
+
 ```asm
 .func1
     MAK A STR ;변수 A를 만들고 타입은 문자열로 설정해라.
