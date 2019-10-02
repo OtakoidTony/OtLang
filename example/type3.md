@@ -23,9 +23,7 @@ LOC LOCAL
 
 ```
 .func1
-    MAK A STR ;변수 A를 만들고 타입은 문자열로 설정해라.
-    MAK B STR
-    MAK C INT ;변수 C를 만들고 타입은 정수로 설정해라.
+    MAK [A, B, C] [STR, STR, INT] ;변수 A와 B와 C를 만들고 타입은 각각 문자열, 문자열, 정수로 설정해라.
     LET A "Hello World!" ;A의 값을 "Hello World!"이라 해라.
     LET B "Hello There!"
     LET C 3 ;C의 값을 3이라 해라.
