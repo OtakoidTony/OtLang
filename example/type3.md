@@ -1,18 +1,3 @@
-MAK MAKE  
-LET LET  
-PSH PUSH  
-RTN RETURN  
-CAS CASE  
-RPT REPEAT  
-TYP TYPE  
-LOC LOCAL  
-LGC LOGIC  
-CMP COMPUTING  
-DEF DEFINE  
-BLN BOOLEAN  
-FOR FOR  
-WIE WHILE  
-
 ```asm
 .func1
     MAK A STR ;변수 A를 만들고 타입은 문자열로 설정해라.
@@ -31,7 +16,8 @@ WIE WHILE
     MAK A INT
     MAK B INT
     MAK C BLN
-    LET C [A > B]
+    LET C [A > B];C의 값을 명제 A>B 이라 해라.
+    CAS C .func1 ;C가 참일 때, .func1를 실행해라.
     
 ```
 
