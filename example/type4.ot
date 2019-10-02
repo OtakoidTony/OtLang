@@ -1,4 +1,0 @@
-box func1 a b:
-    if a>b:
-        a=a+b
-    return a
