@@ -1,5 +1,7 @@
 ```bnf
-<decl_func>::="." <identity>
+<decl_func> ::= "." <identifier> NEWLINE
+<command>   ::= <function> <variable>* ( <type> | <data> )? ( <;> | NEWLINE )
+```
 
 ```asm
 .func1
