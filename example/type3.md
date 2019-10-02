@@ -6,7 +6,14 @@ CAS CASE
 RPT REPEAT  
 TYP TYPE  
 LOC LOCAL  
-```
+LGC LOGIC
+CMP COMPUTING
+DEF DEFINE
+BLN BOOLEAN
+FOR FOR
+WIE WHILE
+
+```asm
 .func1
     MAK A STR ;변수 A를 만들고 타입은 문자열로 설정해라.
     MAK B STR
@@ -19,6 +26,13 @@ LOC LOCAL
 .func2
     GET LOC A .func1 7 ;.func1 을 7번째줄까지 실행할 때 A의 값을 가져오고 .func2의 지역변수로서 할당을 해라.
     MAK B TYP A ;변수 B를 만들되 타입은 A와 같은 것으로 설정해라.
+    
+.func3
+    MAK A INT
+    MAK B INT
+    MAK C BLN
+    LET C [A > B]
+    
 ```
 
 ```
