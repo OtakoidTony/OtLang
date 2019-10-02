@@ -17,7 +17,8 @@
     MAK B INT
     MAK C BLN
     LET C [A > B];C의 값을 명제 A>B 이라 해라.
-    CAS C .func1 ;C가 참일 때, .func1를 실행해라.
+    CAS C TRU .func1 ;C가 참일 때, .func1를 실행해라.
+    CAS C FAL .func2 ;C가 거짓일 때, .func2를 실행해라.
     
 ```
 
