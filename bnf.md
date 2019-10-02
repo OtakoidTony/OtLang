@@ -1,13 +1,6 @@
-```bnf
-<digit> ::= "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9"
-<letter> ::= "A" | "B" | "C" | "D" | "E" | "F"
-<number> ::= <digit> | <letter>
-<integer> ::= <number> | <number><integer>
-```
-
+# OtLang BNF Definition
 
 ## 변수 정의
-이름:type=타입, value=값
 ```
 <decl_var> ::= <identifier> ":" "type" "=" <type> ("," "value" "=" <expr>)? ";"
 ```
