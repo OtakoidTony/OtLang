@@ -1,4 +1,6 @@
-xlby if x>y
+if x>y:
+    x=2y
+    print x
 
 box func1 x y:
     print x+y
